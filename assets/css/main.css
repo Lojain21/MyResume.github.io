@@ -39,18 +39,18 @@
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
-/* .light-background {
+.light-background {
   --background-color: #f9f9f9;
   --surface-color: #ffffff;
-} */
+}
 
-/* .dark-background {
+.dark-background {
   --background-color: #060606;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #252525;
   --contrast-color: #ffffff;
-} */
+}
 
 /* Smooth scroll */
 :root {

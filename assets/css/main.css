@@ -663,7 +663,7 @@ section,
 /*--------------------------------------------------------------
 # Skills Section
 --------------------------------------------------------------*/
-.skills .progress {
+/* .skills .progress {
   height: 60px;
   display: block;
   background: none;
@@ -695,7 +695,7 @@ section,
   height: 10px;
   transition: 0.9s;
   background-color: var(--accent-color);
-}
+} */
 
 /*--------------------------------------------------------------
 # Resume Section
@@ -745,6 +745,65 @@ section,
 }
 
 .resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: var(--background-color);
+  border: 2px solid var(--accent-color);
+}
+
+/*--------------------------------------------------------------
+# Skills Section
+--------------------------------------------------------------*/
+.resume .skills-title {
+  color: var(--heading-color);
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.resume .skills-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid var(--accent-color);
+  position: relative;
+}
+
+.resume .skills-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  margin-bottom: 10px;
+}
+
+.resume .skills-item h5 {
+  font-size: 16px;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .skills-item ul {
+  padding-left: 20px;
+}
+
+.resume .skills-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .skills-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .skills-item::before {
   content: "";
   position: absolute;
   width: 16px;

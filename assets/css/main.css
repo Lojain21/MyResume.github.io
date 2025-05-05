@@ -40,17 +40,17 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f9f9f942;
-  --surface-color: #ffffff42;
+  --background-color: #f9f9f9;
+  --surface-color: #ffffff;
 }
 
-.dark-background {
+/* .dark-background {
   --background-color: #060606;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #252525;
   --contrast-color: #ffffff;
-}
+} */
 
 /* Smooth scroll */
 :root {
@@ -525,7 +525,7 @@ section,
   justify-content: center;
 }
 
-.hero img {
+/* .hero img {
   position: absolute;
   inset: 0;
   display: block;
@@ -533,7 +533,7 @@ section,
   height: 100%;
   object-fit: cover;
   z-index: 1;
-}
+} */
 
 .hero:before {
   content: "";

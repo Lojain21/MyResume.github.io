@@ -89,7 +89,7 @@ h6 {
 
 /* PHP Email Form Messages
 ------------------------------*/
-.php-email-form .error-message {
+/* .php-email-form .error-message {
   display: none;
   background: #df1529;
   color: #ffffff;
@@ -127,8 +127,8 @@ h6 {
   border: 3px solid var(--accent-color);
   border-top-color: var(--surface-color);
   animation: php-email-form-loading 1s linear infinite;
-}
-
+} */
+/* 
 @keyframes php-email-form-loading {
   0% {
     transform: rotate(0deg);
@@ -137,7 +137,7 @@ h6 {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Global Header
@@ -537,7 +537,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
+  background: color-mix(in srgb, var(--background-color), transparent 50%);
   position: absolute;
   inset: 0;
   z-index: 2;

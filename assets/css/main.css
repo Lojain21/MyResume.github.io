@@ -962,7 +962,7 @@ section,
   overflow: hidden;
   background-color: white;
   transition: transform 0.3s ease;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .project-card:hover {
@@ -974,7 +974,7 @@ section,
 }
 
 .view-btn {
-  margin-top: 10px;
+  margin-top: auto;
   background-color: #007bff;
   color: white;
   padding: 8px 16px;

@@ -957,7 +957,7 @@ section,
 
 
 .project-card {
-  /* min-height: 250px; */
+  max-height: 250px;
   display: flex;
   flex-direction: column;
   height: 100%;

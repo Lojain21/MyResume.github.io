@@ -916,6 +916,33 @@ section,
   bottom: 0;
 }
 
+
+.portfolio-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-info {
+  background-color: #ffffff;
+  padding: 15px;
+  border-top: 1px solid #ddd;
+}
+
+.view-btn {
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.view-btn:hover {
+  background-color: #0056b3;
+}
+
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/

@@ -957,12 +957,15 @@ section,
 
 
 .project-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   border: 1px solid #ddd;
   border-radius: 6px;
   overflow: hidden;
   background-color: white;
   transition: transform 0.3s ease;
-  margin-bottom: auto;
+  margin-bottom: 20px;
 }
 
 .project-card:hover {

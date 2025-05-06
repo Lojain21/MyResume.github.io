@@ -954,8 +954,14 @@ section,
   flex-direction: column;
 }
 
-
-
+.project-card img {
+  object-fit: cover;
+  width: 100%;
+  height: 200px; /* أو أي ارتفاع يناسبك */
+}
+.btn-primary {
+  margin-top: auto;
+}
 .project-card {
   max-height: 250px;
   display: flex;

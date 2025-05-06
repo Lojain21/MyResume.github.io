@@ -942,6 +942,19 @@ section,
 .view-btn:hover {
   background-color: #0056b3;
 } */
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
 
 .project-card {
   border: 1px solid #ddd;

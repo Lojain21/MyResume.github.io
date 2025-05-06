@@ -962,7 +962,7 @@ section,
   overflow: hidden;
   background-color: white;
   transition: transform 0.3s ease;
-  margin-bottom: 20px;
+  margin-bottom: auto;
 }
 
 .project-card:hover {
